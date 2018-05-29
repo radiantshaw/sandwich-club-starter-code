@@ -32,8 +32,6 @@ public class JsonUtils {
                 for (int i = 0; i < ingredientsJSON.length(); ++i) {
                     ingredients.add(ingredientsJSON.getString(i));
                 }
-
-
             } catch (JSONException jsxp) {
                 return null;
             }
